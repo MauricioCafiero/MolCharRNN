@@ -5,7 +5,7 @@ and molecule visualization is done using RDKit.
 
 If using this on a new dataset of SMILES strings, use the basic vocab file (vocab.txt, also from DeepChem), and 
 then build your own specific vocab file using the last block in the notebook. You can just use the original
-vocab file, but training is more eficient with a smaller vocabulary.
+vocab file, but training is more efficient with a smaller vocabulary.
 
 In my tests, 50-100 epochs of training on the ~6700 item training set gets 92% training accuracy and 73% validation 
 accuracy.
